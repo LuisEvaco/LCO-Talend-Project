@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
   <talendfile:ContextType xmi:id="_o52BwMxOEfGJo7eFxUARdg" confirmationNeeded="false" hide="false" name="Development">
-    <contextParameter xmi:id="_o52BwcxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Host" prompt="connection_HANA_STATISTICS_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52BwsxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Login" prompt="connection_HANA_STATISTICS_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52Bw8xOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Port" prompt="connection_HANA_STATISTICS_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52BxMxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Schema" prompt="connection_HANA_STATISTICS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52BxcxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Database" prompt="connection_HANA_STATISTICS_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52BxsxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Password" prompt="connection_HANA_STATISTICS_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_o52BwcxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Host" prompt="connection_HANA_STATISTICS_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="TEST"/>
+    <contextParameter xmi:id="_o52BwsxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Login" prompt="connection_HANA_STATISTICS_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Login"/>
+    <contextParameter xmi:id="_o52Bw8xOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Port" prompt="connection_HANA_STATISTICS_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Port"/>
+    <contextParameter xmi:id="_o52BxMxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Schema" prompt="connection_HANA_STATISTICS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Schema"/>
+    <contextParameter xmi:id="_o52BxcxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Database" prompt="connection_HANA_STATISTICS_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Database"/>
+    <contextParameter xmi:id="_o52BxsxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Password" prompt="connection_HANA_STATISTICS_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Password"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_o52Bx8xOEfGJo7eFxUARdg" confirmationNeeded="false" hide="false" name="Production">
-    <contextParameter xmi:id="_o52ByMxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Host" prompt="connection_HANA_STATISTICS_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52BycxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Login" prompt="connection_HANA_STATISTICS_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52BysxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Port" prompt="connection_HANA_STATISTICS_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52By8xOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Schema" prompt="connection_HANA_STATISTICS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52BzMxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Database" prompt="connection_HANA_STATISTICS_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52BzcxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Password" prompt="connection_HANA_STATISTICS_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_o52ByMxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Host" prompt="connection_HANA_STATISTICS_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="TEST"/>
+    <contextParameter xmi:id="_o52BycxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Login" prompt="connection_HANA_STATISTICS_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Login"/>
+    <contextParameter xmi:id="_o52BysxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Port" prompt="connection_HANA_STATISTICS_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Port"/>
+    <contextParameter xmi:id="_o52By8xOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Schema" prompt="connection_HANA_STATISTICS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Schema"/>
+    <contextParameter xmi:id="_o52BzMxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Database" prompt="connection_HANA_STATISTICS_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Database"/>
+    <contextParameter xmi:id="_o52BzcxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Password" prompt="connection_HANA_STATISTICS_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Password"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_o52BzsxOEfGJo7eFxUARdg" confirmationNeeded="false" hide="false" name="Test">
-    <contextParameter xmi:id="_o52Bz8xOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Host" prompt="connection_HANA_STATISTICS_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52B0MxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Login" prompt="connection_HANA_STATISTICS_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52B0cxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Port" prompt="connection_HANA_STATISTICS_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52B0sxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Schema" prompt="connection_HANA_STATISTICS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52B08xOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Database" prompt="connection_HANA_STATISTICS_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_o52B1MxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Password" prompt="connection_HANA_STATISTICS_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_o52Bz8xOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Host" prompt="connection_HANA_STATISTICS_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="TEST"/>
+    <contextParameter xmi:id="_o52B0MxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Login" prompt="connection_HANA_STATISTICS_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Login"/>
+    <contextParameter xmi:id="_o52B0cxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Port" prompt="connection_HANA_STATISTICS_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Port"/>
+    <contextParameter xmi:id="_o52B0sxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Schema" prompt="connection_HANA_STATISTICS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Schema"/>
+    <contextParameter xmi:id="_o52B08xOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Database" prompt="connection_HANA_STATISTICS_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Database"/>
+    <contextParameter xmi:id="_o52B1MxOEfGJo7eFxUARdg" comment="" name="connection_HANA_STATISTICS_Password" prompt="connection_HANA_STATISTICS_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Password"/>
   </talendfile:ContextType>
 </xmi:XMI>

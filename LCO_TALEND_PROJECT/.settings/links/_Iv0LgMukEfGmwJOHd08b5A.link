@@ -5,22 +5,22 @@
     "repoId" : "__8HPUMulEfGmwJOHd08b5A",
     "parameterList" : [ {
       "id" : "_Dr6-Y8ulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_database"
+      "name" : "connection_HanaCore_Database"
     }, {
       "id" : "_Dr6-YculEfGmwJOHd08b5A",
-      "name" : "connection_Destin_host"
+      "name" : "connection_HanaCore_host"
     }, {
       "id" : "_Dr6-ZculEfGmwJOHd08b5A",
-      "name" : "connection_Destin_password"
+      "name" : "connection_HanaCore_password"
     }, {
       "id" : "_Dr6-YsulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_port"
+      "name" : "connection_HanaCore_port"
     }, {
       "id" : "_Dr6-ZsulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_Schema"
+      "name" : "connection_HanaCore_Schema"
     }, {
       "id" : "_Dr6-ZMulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_username"
+      "name" : "connection_HanaCore_username"
     } ]
   }, {
     "contextName" : "Development",
@@ -34,44 +34,44 @@
     "repoId" : "_ElTS4MukEfGmwJOHd08b5A",
     "parameterList" : [ {
       "id" : "_Dr6-Y8ulEfGmwJOHd08b5A",
-      "name" : "connection_Source_database"
+      "name" : "connection_HanaStatistics_database"
     }, {
       "id" : "_Dr6-YculEfGmwJOHd08b5A",
-      "name" : "connection_Source_host"
+      "name" : "connection_HanaStatistics_host"
     }, {
       "id" : "_Dr6-ZculEfGmwJOHd08b5A",
-      "name" : "connection_Source_password"
+      "name" : "connection_HanaStatistics_password"
     }, {
       "id" : "_Dr6-YsulEfGmwJOHd08b5A",
-      "name" : "connection_Source_port"
+      "name" : "connection_HanaStatistics_port"
     }, {
       "id" : "_Dr6-ZsulEfGmwJOHd08b5A",
-      "name" : "connection_Source_Schema"
+      "name" : "connection_HanaStatistics_Schema"
     }, {
       "id" : "_Dr6-ZMulEfGmwJOHd08b5A",
-      "name" : "connection_Source_username"
+      "name" : "connection_HanaStatistics_username"
     } ]
   }, {
     "contextName" : "Test",
     "repoId" : "__8HPUMulEfGmwJOHd08b5A",
     "parameterList" : [ {
       "id" : "_Dr6-asulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_database"
+      "name" : "connection_HanaCore_Database"
     }, {
       "id" : "_Dr6-aMulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_host"
+      "name" : "connection_HanaCore_host"
     }, {
       "id" : "_Dr6-bMulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_password"
+      "name" : "connection_HanaCore_password"
     }, {
       "id" : "_Dr6-aculEfGmwJOHd08b5A",
-      "name" : "connection_Destin_port"
+      "name" : "connection_HanaCore_port"
     }, {
       "id" : "_Dr6-bculEfGmwJOHd08b5A",
-      "name" : "connection_Destin_Schema"
+      "name" : "connection_HanaCore_Schema"
     }, {
       "id" : "_Dr6-a8ulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_username"
+      "name" : "connection_HanaCore_username"
     } ]
   }, {
     "contextName" : "Test",
@@ -85,44 +85,44 @@
     "repoId" : "_ElTS4MukEfGmwJOHd08b5A",
     "parameterList" : [ {
       "id" : "_Dr6-asulEfGmwJOHd08b5A",
-      "name" : "connection_Source_database"
+      "name" : "connection_HanaStatistics_database"
     }, {
       "id" : "_Dr6-aMulEfGmwJOHd08b5A",
-      "name" : "connection_Source_host"
+      "name" : "connection_HanaStatistics_host"
     }, {
       "id" : "_Dr6-bMulEfGmwJOHd08b5A",
-      "name" : "connection_Source_password"
+      "name" : "connection_HanaStatistics_password"
     }, {
       "id" : "_Dr6-aculEfGmwJOHd08b5A",
-      "name" : "connection_Source_port"
+      "name" : "connection_HanaStatistics_port"
     }, {
       "id" : "_Dr6-bculEfGmwJOHd08b5A",
-      "name" : "connection_Source_Schema"
+      "name" : "connection_HanaStatistics_Schema"
     }, {
       "id" : "_Dr6-a8ulEfGmwJOHd08b5A",
-      "name" : "connection_Source_username"
+      "name" : "connection_HanaStatistics_username"
     } ]
   }, {
     "contextName" : "Production",
     "repoId" : "__8HPUMulEfGmwJOHd08b5A",
     "parameterList" : [ {
       "id" : "_Dr6-cculEfGmwJOHd08b5A",
-      "name" : "connection_Destin_database"
+      "name" : "connection_HanaCore_Database"
     }, {
       "id" : "_Dr6-b8ulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_host"
+      "name" : "connection_HanaCore_host"
     }, {
       "id" : "_Dr6-c8ulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_password"
+      "name" : "connection_HanaCore_password"
     }, {
       "id" : "_Dr6-cMulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_port"
+      "name" : "connection_HanaCore_port"
     }, {
       "id" : "_Dr6-dMulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_Schema"
+      "name" : "connection_HanaCore_Schema"
     }, {
       "id" : "_Dr6-csulEfGmwJOHd08b5A",
-      "name" : "connection_Destin_username"
+      "name" : "connection_HanaCore_username"
     } ]
   }, {
     "contextName" : "Production",
@@ -136,22 +136,22 @@
     "repoId" : "_ElTS4MukEfGmwJOHd08b5A",
     "parameterList" : [ {
       "id" : "_Dr6-cculEfGmwJOHd08b5A",
-      "name" : "connection_Source_database"
+      "name" : "connection_HanaStatistics_database"
     }, {
       "id" : "_Dr6-b8ulEfGmwJOHd08b5A",
-      "name" : "connection_Source_host"
+      "name" : "connection_HanaStatistics_host"
     }, {
       "id" : "_Dr6-c8ulEfGmwJOHd08b5A",
-      "name" : "connection_Source_password"
+      "name" : "connection_HanaStatistics_password"
     }, {
       "id" : "_Dr6-cMulEfGmwJOHd08b5A",
-      "name" : "connection_Source_port"
+      "name" : "connection_HanaStatistics_port"
     }, {
       "id" : "_Dr6-dMulEfGmwJOHd08b5A",
-      "name" : "connection_Source_Schema"
+      "name" : "connection_HanaStatistics_Schema"
     }, {
       "id" : "_Dr6-csulEfGmwJOHd08b5A",
-      "name" : "connection_Source_username"
+      "name" : "connection_HanaStatistics_username"
     } ]
   } ]
 }
