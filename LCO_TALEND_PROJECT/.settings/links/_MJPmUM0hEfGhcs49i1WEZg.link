@@ -1,0 +1,70 @@
+{
+  "itemId" : "_MJPmUM0hEfGhcs49i1WEZg",
+  "contextList" : [ {
+    "contextName" : "Test",
+    "repoId" : "_KoMoMMxOEfGJo7eFxUARdg",
+    "parameterList" : [ {
+      "id" : "_o52B08xOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Database"
+    }, {
+      "id" : "_o52Bz8xOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Host"
+    }, {
+      "id" : "_o52B0MxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Login"
+    }, {
+      "id" : "_o52B1MxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Password"
+    }, {
+      "id" : "_o52B0cxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Port"
+    }, {
+      "id" : "_o52B0sxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Schema"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_KoMoMMxOEfGJo7eFxUARdg",
+    "parameterList" : [ {
+      "id" : "_o52BzMxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Database"
+    }, {
+      "id" : "_o52ByMxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Host"
+    }, {
+      "id" : "_o52BycxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Login"
+    }, {
+      "id" : "_o52BzcxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Password"
+    }, {
+      "id" : "_o52BysxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Port"
+    }, {
+      "id" : "_o52By8xOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Schema"
+    } ]
+  }, {
+    "contextName" : "Development",
+    "repoId" : "_KoMoMMxOEfGJo7eFxUARdg",
+    "parameterList" : [ {
+      "id" : "_o52BxcxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Database"
+    }, {
+      "id" : "_o52BwcxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Host"
+    }, {
+      "id" : "_o52BwsxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Login"
+    }, {
+      "id" : "_o52BxsxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Password"
+    }, {
+      "id" : "_o52Bw8xOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Port"
+    }, {
+      "id" : "_o52BxMxOEfGJo7eFxUARdg",
+      "name" : "connection_HANA_STATISTICS_Schema"
+    } ]
+  } ]
+}

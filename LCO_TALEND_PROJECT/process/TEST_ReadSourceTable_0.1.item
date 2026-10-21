@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Development" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Development">
-    <contextParameter comment="" name="connection_HanaCore_Database" prompt="connection_HanaCore_Database?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB" internalId="_FSOMkMxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_host" prompt="connection_HanaCore_host?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="192.168.178.23" internalId="_FSOMkcxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_password" prompt="connection_HanaCore_password?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_Password" value="enc:system.encryption.key.v1:3+DNnbuCi6xS/YBswpAWsQNRiT7UNIM0hGOLv1ge3gBRv+y5P3R1qk3M6BnDKKwOmfCWSywAXncJNg==" internalId="_FSOMksxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_port" prompt="connection_HanaCore_port?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="" internalId="_FSOMk8xPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_Schema" prompt="connection_HanaCore_Schema?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="DMA" internalId="_FSOMlMxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_username" prompt="connection_HanaCore_username?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB_SQL_RW" internalId="_FSOMlcxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="DEV" internalId="_FSOzoMxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Database" prompt="connection_HANA_STATISTICS_Database?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Database" internalId="_FSOzocxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Host" prompt="connection_HANA_STATISTICS_Host?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="TEST" internalId="_FSOzosxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Login" prompt="connection_HANA_STATISTICS_Login?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Login" internalId="_FSOzo8xPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Password" prompt="connection_HANA_STATISTICS_Password?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Password" internalId="_FSOzpMxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Port" prompt="connection_HANA_STATISTICS_Port?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Port" internalId="_FSOzpcxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Schema" prompt="connection_HANA_STATISTICS_Schema?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Schema" internalId="_FSOzpsxPEfGJo7eFxUARdg"/>
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="DEV" internalId="_gcpGsM0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_Database" prompt="connection_HanaCore_Database?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB" internalId="_gcpGsc0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_host" prompt="connection_HanaCore_host?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="192.168.178.23" internalId="_gcpGss0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_password" prompt="connection_HanaCore_password?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_Password" value="enc:system.encryption.key.v1:W2oUAMjRUWl+hVMeaenO5FWAouvOAFIQc8Lbu35zywiDeABh0Q9HXbQ60BDsHtIQ/NtFHgjGB7605g==" internalId="_gcpGs80kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_port" prompt="connection_HanaCore_port?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="" internalId="_gcpGtM0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_Schema" prompt="connection_HanaCore_Schema?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="DMA" internalId="_gcpGtc0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_username" prompt="connection_HanaCore_username?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB_SQL_RW" internalId="_gcpGts0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_database" prompt="connection_HanaStatistics_database?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="ESG_HUB" internalId="_gcpGt80kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_host" prompt="connection_HanaStatistics_host?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="192.168.178.23" internalId="_gcpGuM0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_password" prompt="connection_HanaStatistics_password?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_Password" value="enc:system.encryption.key.v1:Mo47XE4mMEpkpbTaCHL58ZZhLFKUACr92J7TVctQkgpRrh6z8j+vEKojtVjMbekmDO4LR+nr8N4ddQ==" internalId="_gcpGuc0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_port" prompt="connection_HanaStatistics_port?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="" internalId="_gcpGus0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_Schema" prompt="connection_HanaStatistics_Schema?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="dbo" internalId="_gcpGu80kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_username" prompt="connection_HanaStatistics_username?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="ESG_HUB_SQL_RW" internalId="_gcpGvM0kEfGhcs49i1WEZg"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Test">
-    <contextParameter comment="" name="connection_HanaCore_Database" prompt="connection_HanaCore_Database?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB" internalId="_FSOzp8xPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_host" prompt="connection_HanaCore_host?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="192.168.178.23" internalId="_FSOzqMxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_password" prompt="connection_HanaCore_password?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_Password" value="enc:system.encryption.key.v1:NcmPT7KXJUOWGMVcrGYtlbwOPnvt9VR4lWnLalNT96pynDsu9ysTl6EotGzPh2gToeDxaVEVpOY9AQ==" internalId="_FSOzqcxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_port" prompt="connection_HanaCore_port?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="" internalId="_FSOzqsxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_Schema" prompt="connection_HanaCore_Schema?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="DSA" internalId="_FSOzq8xPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_username" prompt="connection_HanaCore_username?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB_SQL_RW" internalId="_FSOzrMxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="TEST" internalId="_FSOzrcxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Database" prompt="connection_HANA_STATISTICS_Database?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Database" internalId="_FSOzrsxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Host" prompt="connection_HANA_STATISTICS_Host?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="TEST" internalId="_FSOzr8xPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Login" prompt="connection_HANA_STATISTICS_Login?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Login" internalId="_FSOzsMxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Password" prompt="connection_HANA_STATISTICS_Password?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Password" internalId="_FSOzscxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Port" prompt="connection_HANA_STATISTICS_Port?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Port" internalId="_FSOzssxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Schema" prompt="connection_HANA_STATISTICS_Schema?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Schema" internalId="_FSOzs8xPEfGJo7eFxUARdg"/>
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="TEST" internalId="_gcpGvc0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_Database" prompt="connection_HanaCore_Database?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB" internalId="_gcpGvs0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_host" prompt="connection_HanaCore_host?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="192.168.178.23" internalId="_gcpGv80kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_password" prompt="connection_HanaCore_password?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_Password" value="enc:system.encryption.key.v1:o1nYPafZLVbT28OCAKU8+jX2uflvxnkqhZTagjU2qQfGnITU9u/iRR6obSy06yxAyP4wcfFCHljMOA==" internalId="_gcpGwM0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_port" prompt="connection_HanaCore_port?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="" internalId="_gcpGwc0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_Schema" prompt="connection_HanaCore_Schema?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="DSA" internalId="_gcpGws0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_username" prompt="connection_HanaCore_username?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB_SQL_RW" internalId="_gcpGw80kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_database" prompt="connection_HanaStatistics_database?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="ESG_HUB" internalId="_gcpGxM0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_host" prompt="connection_HanaStatistics_host?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="192.168.178.23" internalId="_gcpGxc0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_password" prompt="connection_HanaStatistics_password?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_Password" value="enc:system.encryption.key.v1:GfGmNOz27xscgpJBNAMKx1IFmuccfzSbQX1acTPYRgBUKCP/qRypBv7W+FCovVLXyt5Oh2xgqxEXcw==" internalId="_gcpGxs0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_port" prompt="connection_HanaStatistics_port?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="" internalId="_gcpGx80kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_Schema" prompt="connection_HanaStatistics_Schema?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="dbo" internalId="_gcpGyM0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_username" prompt="connection_HanaStatistics_username?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="ESG_HUB_SQL_RW" internalId="_gcpGyc0kEfGhcs49i1WEZg"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Production">
-    <contextParameter comment="" name="connection_HanaCore_Database" prompt="connection_HanaCore_Database?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB" internalId="_FSOztMxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_host" prompt="connection_HanaCore_host?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="192.168.178.23" internalId="_FSOztcxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_password" prompt="connection_HanaCore_password?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_Password" value="enc:system.encryption.key.v1:jbeGekOhvGkCVXbplvgmM311nyPzIEYG2RxSQL5tkuvtC1nCRRvx0aR7L2q4mReCHmjsaLDC1HaJ4w==" internalId="_FSOztsxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_port" prompt="connection_HanaCore_port?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="" internalId="_FSOzt8xPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_Schema" prompt="connection_HanaCore_Schema?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="MDW" internalId="_FSOzuMxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HanaCore_username" prompt="connection_HanaCore_username?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB_SQL_RW" internalId="_FSOzucxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="PROD" internalId="_FSOzusxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Database" prompt="connection_HANA_STATISTICS_Database?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Database" internalId="_FSOzu8xPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Host" prompt="connection_HANA_STATISTICS_Host?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="TEST" internalId="_FSOzvMxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Login" prompt="connection_HANA_STATISTICS_Login?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Login" internalId="_FSOzvcxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Password" prompt="connection_HANA_STATISTICS_Password?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Password" internalId="_FSOzvsxPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Port" prompt="connection_HANA_STATISTICS_Port?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Port" internalId="_FSOzv8xPEfGJo7eFxUARdg"/>
-    <contextParameter comment="" name="connection_HANA_STATISTICS_Schema" prompt="connection_HANA_STATISTICS_Schema?" promptNeeded="false" repositoryContextId="_KoMoMMxOEfGJo7eFxUARdg" type="id_String" value="Schema" internalId="_FSOzwMxPEfGJo7eFxUARdg"/>
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="PROD" internalId="_gcpGys0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_Database" prompt="connection_HanaCore_Database?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB" internalId="_gcpGy80kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_host" prompt="connection_HanaCore_host?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="192.168.178.23" internalId="_gcpGzM0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_password" prompt="connection_HanaCore_password?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_Password" value="enc:system.encryption.key.v1:wcjYrCf/UWiUKBaOL3diQQ2+S4gDlIylVIJ/nEDjrYIDfr4X/FB6rzwN1cH0E/JptgkbyO2V4Cu/1g==" internalId="_gcpGzc0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_port" prompt="connection_HanaCore_port?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="" internalId="_gcpGzs0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_Schema" prompt="connection_HanaCore_Schema?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="MDW" internalId="_gcpGz80kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaCore_username" prompt="connection_HanaCore_username?" promptNeeded="false" repositoryContextId="__8HPUMulEfGmwJOHd08b5A" type="id_String" value="ESG_HUB_SQL_RW" internalId="_gcpG0M0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_database" prompt="connection_HanaStatistics_database?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="ESG_HUB" internalId="_gcpG0c0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_host" prompt="connection_HanaStatistics_host?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="192.168.178.23" internalId="_gcpG0s0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_password" prompt="connection_HanaStatistics_password?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_Password" value="enc:system.encryption.key.v1:b4lG0tPScL/WbByuHxdEk3Hg5madnkIjXZZKL/e8FC+b+rCROjpG3Qyzh2tjhcbV3XCYZIwMqNHoBA==" internalId="_gcpG080kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_port" prompt="connection_HanaStatistics_port?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="" internalId="_gcptwM0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_Schema" prompt="connection_HanaStatistics_Schema?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="dbo" internalId="_gcptwc0kEfGhcs49i1WEZg"/>
+    <contextParameter comment="" name="connection_HanaStatistics_username" prompt="connection_HanaStatistics_username?" promptNeeded="false" repositoryContextId="_ElTS4MukEfGmwJOHd08b5A" type="id_String" value="ESG_HUB_SQL_RW" internalId="_gcptws0kEfGhcs49i1WEZg"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -146,13 +146,13 @@
   <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
-    <elementParameter field="TEXT" name="HOST" value="connection_HANA_STATISTICS_Host"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_HanaCore_host"/>
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="connection_HANA_STATISTICS_Port"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="connection_HANA_STATISTICS_Schema"/>
-    <elementParameter field="TEXT" name="DBNAME" value="connection_HANA_STATISTICS_Database"/>
-    <elementParameter field="TEXT" name="USER" value="connection_HANA_STATISTICS_login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9hc2SrprVBRcJQZj9cWyBZH/6zJZytmqHQ+oz2ZPrg0TcknyezEHX01zEOEbmM7zfGu+HYTh4esP2I3I7q91"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_HanaCore_port"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_HanaStatistics_Schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_HanaStatistics_database"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_HanaCore_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="context.connection_HanaStatistics_password"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
@@ -365,12 +365,12 @@
   <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
-    <elementParameter field="TEXT" name="HOST" value="connection_HANA_STATISTICS_Host"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_HanaCore_host"/>
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="connection_HANA_STATISTICS_Port"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="connection_HANA_STATISTICS_Schema"/>
-    <elementParameter field="TEXT" name="DBNAME" value="connection_HANA_STATISTICS_Database"/>
-    <elementParameter field="TEXT" name="USER" value="connection_HANA_STATISTICS_Login"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_HanaCore_port"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_HanaCore_Schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_HanaCore_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_HanaCore_username"/>
     <elementParameter field="PASSWORD" name="PASS" value="context.connection_HanaCore_password"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
