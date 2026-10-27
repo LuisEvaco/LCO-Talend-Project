@@ -1,0 +1,79 @@
+{
+  "itemId" : "_7N8MsNILEfGbS7kPSxMumg",
+  "contextList" : [ {
+    "contextName" : "Development",
+    "repoId" : "_OPEJsNILEfGbS7kPSxMumg",
+    "parameterList" : [ {
+      "id" : "_OPlHEdILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Password"
+    }, {
+      "id" : "_OPlHEtILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Server"
+    }, {
+      "id" : "_OPlHE9ILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Login"
+    }, {
+      "id" : "_OPluINILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Database"
+    }, {
+      "id" : "_OPluIdILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_AdditionalParams"
+    }, {
+      "id" : "_OPluItILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Schema"
+    }, {
+      "id" : "_OPluI9ILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Port"
+    } ]
+  }, {
+    "contextName" : "Test",
+    "repoId" : "_OPEJsNILEfGbS7kPSxMumg",
+    "parameterList" : [ {
+      "id" : "_OPluLdILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Password"
+    }, {
+      "id" : "_OPluLtILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Server"
+    }, {
+      "id" : "_OPluL9ILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Login"
+    }, {
+      "id" : "_OPluMNILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Database"
+    }, {
+      "id" : "_OPluMdILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_AdditionalParams"
+    }, {
+      "id" : "_OPluMtILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Schema"
+    }, {
+      "id" : "_OPluM9ILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Port"
+    } ]
+  }, {
+    "contextName" : "Production",
+    "repoId" : "_OPEJsNILEfGbS7kPSxMumg",
+    "parameterList" : [ {
+      "id" : "_OPluJdILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Password"
+    }, {
+      "id" : "_OPluJtILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Server"
+    }, {
+      "id" : "_OPluJ9ILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Login"
+    }, {
+      "id" : "_OPluKNILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Database"
+    }, {
+      "id" : "_OPluKdILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_AdditionalParams"
+    }, {
+      "id" : "_OPluKtILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Schema"
+    }, {
+      "id" : "_OPluK9ILEfGbS7kPSxMumg",
+      "name" : "connection_DWH_Port"
+    } ]
+  } ]
+}
