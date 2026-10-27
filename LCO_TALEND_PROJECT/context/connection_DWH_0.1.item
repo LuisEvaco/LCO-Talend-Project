@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_OPlHENILEfGbS7kPSxMumg" confirmationNeeded="false" hide="false" name="Development">
+    <contextParameter xmi:id="_OPlHEdILEfGbS7kPSxMumg" comment="" name="connection_DWH_Password" prompt="connection_DWH_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value=""/>
+    <contextParameter xmi:id="_OPlHEtILEfGbS7kPSxMumg" comment="" name="connection_DWH_Server" prompt="connection_DWH_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPlHE9ILEfGbS7kPSxMumg" comment="" name="connection_DWH_Login" prompt="connection_DWH_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluINILEfGbS7kPSxMumg" comment="" name="connection_DWH_Database" prompt="connection_DWH_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluIdILEfGbS7kPSxMumg" comment="" name="connection_DWH_AdditionalParams" prompt="connection_DWH_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluItILEfGbS7kPSxMumg" comment="" name="connection_DWH_Schema" prompt="connection_DWH_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluI9ILEfGbS7kPSxMumg" comment="" name="connection_DWH_Port" prompt="connection_DWH_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OPluJNILEfGbS7kPSxMumg" confirmationNeeded="false" hide="false" name="Production">
+    <contextParameter xmi:id="_OPluJdILEfGbS7kPSxMumg" comment="" name="connection_DWH_Password" prompt="connection_DWH_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value=""/>
+    <contextParameter xmi:id="_OPluJtILEfGbS7kPSxMumg" comment="" name="connection_DWH_Server" prompt="connection_DWH_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluJ9ILEfGbS7kPSxMumg" comment="" name="connection_DWH_Login" prompt="connection_DWH_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluKNILEfGbS7kPSxMumg" comment="" name="connection_DWH_Database" prompt="connection_DWH_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluKdILEfGbS7kPSxMumg" comment="" name="connection_DWH_AdditionalParams" prompt="connection_DWH_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluKtILEfGbS7kPSxMumg" comment="" name="connection_DWH_Schema" prompt="connection_DWH_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluK9ILEfGbS7kPSxMumg" comment="" name="connection_DWH_Port" prompt="connection_DWH_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OPluLNILEfGbS7kPSxMumg" confirmationNeeded="false" hide="false" name="Test">
+    <contextParameter xmi:id="_OPluLdILEfGbS7kPSxMumg" comment="" name="connection_DWH_Password" prompt="connection_DWH_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value=""/>
+    <contextParameter xmi:id="_OPluLtILEfGbS7kPSxMumg" comment="" name="connection_DWH_Server" prompt="connection_DWH_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluL9ILEfGbS7kPSxMumg" comment="" name="connection_DWH_Login" prompt="connection_DWH_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluMNILEfGbS7kPSxMumg" comment="" name="connection_DWH_Database" prompt="connection_DWH_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluMdILEfGbS7kPSxMumg" comment="" name="connection_DWH_AdditionalParams" prompt="connection_DWH_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluMtILEfGbS7kPSxMumg" comment="" name="connection_DWH_Schema" prompt="connection_DWH_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+    <contextParameter xmi:id="_OPluM9ILEfGbS7kPSxMumg" comment="" name="connection_DWH_Port" prompt="connection_DWH_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433"/>
+  </talendfile:ContextType>
+</xmi:XMI>
