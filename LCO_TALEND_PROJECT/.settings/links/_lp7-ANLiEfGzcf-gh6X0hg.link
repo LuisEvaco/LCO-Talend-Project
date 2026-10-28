@@ -1,0 +1,29 @@
+{
+  "itemId" : "_lp7-ANLiEfGzcf-gh6X0hg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_tpRzINLiEfGzcf-gh6X0hg",
+    "parameterList" : [ {
+      "id" : "_tqAL4NLiEfGzcf-gh6X0hg",
+      "name" : "TestSQLServer_Schema"
+    }, {
+      "id" : "_tqAL4dLiEfGzcf-gh6X0hg",
+      "name" : "TestSQLServer_Login"
+    }, {
+      "id" : "_tqAL4tLiEfGzcf-gh6X0hg",
+      "name" : "TestSQLServer_Server"
+    }, {
+      "id" : "_tqAL49LiEfGzcf-gh6X0hg",
+      "name" : "TestSQLServer_Port"
+    }, {
+      "id" : "_tqAL5NLiEfGzcf-gh6X0hg",
+      "name" : "TestSQLServer_Database"
+    }, {
+      "id" : "_tqAL5dLiEfGzcf-gh6X0hg",
+      "name" : "TestSQLServer_AdditionalParams"
+    }, {
+      "id" : "_tqAL5tLiEfGzcf-gh6X0hg",
+      "name" : "TestSQLServer_Password"
+    } ]
+  } ]
+}

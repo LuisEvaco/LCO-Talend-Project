@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_uRfCoNLiEfGzcf-gh6X0hg" name="TestSQLServer" id="_lp7-ANLiEfGzcf-gh6X0hg" label="TestSQLServer" ContextMode="true" ContextId="_tpRzINLiEfGzcf-gh6X0hg" contextName="Default" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://:1433;DatabaseName=;" dbVersionString="MSSQL_PROP" Port="context.TestSQLServer_Port" Username="context.TestSQLServer_Login" Password="context.TestSQLServer_Password" ServerName="context.TestSQLServer_Server" DatasourceName="" FileFieldName="" SID="context.TestSQLServer_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="context.TestSQLServer_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.TestSQLServer_Schema" supportNLS="false">
+  <taggedValue xmi:id="_uRfCodLiEfGzcf-gh6X0hg" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_uS5X4NLiEfGzcf-gh6X0hg" tag="package filter" value=""/>
+  <taggedValue xmi:id="_uTQkQNLiEfGzcf-gh6X0hg" tag="Status" value=""/>
+  <taggedValue xmi:id="_uTQkQdLiEfGzcf-gh6X0hg" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_uTQkQtLiEfGzcf-gh6X0hg" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_uTQkQ9LiEfGzcf-gh6X0hg" tag="Description" value=""/>
+  <taggedValue xmi:id="_uTQkRNLiEfGzcf-gh6X0hg" tag="Author" value=""/>
+  <taggedValue xmi:id="_uTQkRdLiEfGzcf-gh6X0hg" tag="otherParameter"/>
+  <parameters xmi:id="_uRfCotLiEfGzcf-gh6X0hg" key="CONN_PARA_KEY_USERNAME" value="context.TestSQLServer_Login"/>
+</TalendMetadata:DatabaseConnection>
