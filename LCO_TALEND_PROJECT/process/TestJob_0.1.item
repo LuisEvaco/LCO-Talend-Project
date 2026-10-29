@@ -2,15 +2,15 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Development" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Development">
     <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="DEV" internalId="_YyzdANOyEfGzcf-gh6X0hg"/>
-    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="" internalId="_YyzdAdOyEfGzcf-gh6X0hg"/>
+    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="DEV" internalId="_YyzdAdOyEfGzcf-gh6X0hg"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Test">
     <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="TEST" internalId="_YyzdAtOyEfGzcf-gh6X0hg"/>
-    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="" internalId="_YyzdA9OyEfGzcf-gh6X0hg"/>
+    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="TEST" internalId="_YyzdA9OyEfGzcf-gh6X0hg"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Production">
     <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="PROD" internalId="_YyzdBNOyEfGzcf-gh6X0hg"/>
-    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="" internalId="_YyzdBdOyEfGzcf-gh6X0hg"/>
+    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="PROD" internalId="_YyzdBdOyEfGzcf-gh6X0hg"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>

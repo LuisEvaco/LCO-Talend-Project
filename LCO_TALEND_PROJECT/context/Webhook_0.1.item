@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
   <talendfile:ContextType xmi:id="_RUn0MNOyEfGzcf-gh6X0hg" confirmationNeeded="false" hide="false" name="Development">
-    <contextParameter xmi:id="_RUn0MdOyEfGzcf-gh6X0hg" comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_RUn0MdOyEfGzcf-gh6X0hg" comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DEV"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_RUn0MtOyEfGzcf-gh6X0hg" confirmationNeeded="false" hide="false" name="Test">
-    <contextParameter xmi:id="_RUn0M9OyEfGzcf-gh6X0hg" comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_RUn0M9OyEfGzcf-gh6X0hg" comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="TEST"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_RUn0NNOyEfGzcf-gh6X0hg" confirmationNeeded="false" hide="false" name="Production">
-    <contextParameter xmi:id="_RUn0NdOyEfGzcf-gh6X0hg" comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_RUn0NdOyEfGzcf-gh6X0hg" comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PROD"/>
   </talendfile:ContextType>
 </xmi:XMI>
