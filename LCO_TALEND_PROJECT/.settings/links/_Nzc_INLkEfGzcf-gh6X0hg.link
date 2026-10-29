@@ -1,0 +1,29 @@
+{
+  "itemId" : "_Nzc_INLkEfGzcf-gh6X0hg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_UZISoNLkEfGzcf-gh6X0hg",
+    "parameterList" : [ {
+      "id" : "_UZiiUdLkEfGzcf-gh6X0hg",
+      "name" : "TESTESQLServer_Schema"
+    }, {
+      "id" : "_UZiiUtLkEfGzcf-gh6X0hg",
+      "name" : "TESTESQLServer_Login"
+    }, {
+      "id" : "_UZiiU9LkEfGzcf-gh6X0hg",
+      "name" : "TESTESQLServer_Server"
+    }, {
+      "id" : "_UZiiVNLkEfGzcf-gh6X0hg",
+      "name" : "TESTESQLServer_Port"
+    }, {
+      "id" : "_UZiiVdLkEfGzcf-gh6X0hg",
+      "name" : "TESTESQLServer_Database"
+    }, {
+      "id" : "_UZiiVtLkEfGzcf-gh6X0hg",
+      "name" : "TESTESQLServer_AdditionalParams"
+    }, {
+      "id" : "_UZiiV9LkEfGzcf-gh6X0hg",
+      "name" : "TESTESQLServer_Password"
+    } ]
+  } ]
+}

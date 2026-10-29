@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_UZiiUNLkEfGzcf-gh6X0hg" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_UZiiUdLkEfGzcf-gh6X0hg" comment="" name="TESTESQLServer_Schema" prompt="TESTESQLServer_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  <contextParameter xmi:id="_UZiiUtLkEfGzcf-gh6X0hg" comment="" name="TESTESQLServer_Login" prompt="TESTESQLServer_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  <contextParameter xmi:id="_UZiiU9LkEfGzcf-gh6X0hg" comment="" name="TESTESQLServer_Server" prompt="TESTESQLServer_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  <contextParameter xmi:id="_UZiiVNLkEfGzcf-gh6X0hg" comment="" name="TESTESQLServer_Port" prompt="TESTESQLServer_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_UZiiVdLkEfGzcf-gh6X0hg" comment="" name="TESTESQLServer_Database" prompt="TESTESQLServer_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  <contextParameter xmi:id="_UZiiVtLkEfGzcf-gh6X0hg" comment="" name="TESTESQLServer_AdditionalParams" prompt="TESTESQLServer_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  <contextParameter xmi:id="_UZiiV9LkEfGzcf-gh6X0hg" comment="" name="TESTESQLServer_Password" prompt="TESTESQLServer_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value=""/>
+</talendfile:ContextType>
