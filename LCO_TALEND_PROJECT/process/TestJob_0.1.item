@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Development" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Development">
-    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="DEV" internalId="_YyzdANOyEfGzcf-gh6X0hg"/>
-    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="DEV" internalId="_YyzdAdOyEfGzcf-gh6X0hg"/>
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="DEV" internalId="_XicVINeTEfG_WeH1NTIhfw"/>
+    <contextParameter comment="" name="FromDate" prompt="FromDate?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="" internalId="_XicVIdeTEfG_WeH1NTIhfw"/>
+    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="[{&quot;data&quot;:&quot;{&#xD;&#xA;&quot;FromDate&quot; : &quot;20261101&quot;,&#xD;&#xA;&quot;ToDate&quot; : &quot;20261102&quot;&#xD;&#xA;}&quot;,&quot;type&quot;:&quot;application/json&quot;}]" internalId="_XicVIteTEfG_WeH1NTIhfw"/>
+    <contextParameter comment="" name="ToDate" prompt="ToDate?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="" internalId="_XicVI9eTEfG_WeH1NTIhfw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Test">
-    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="TEST" internalId="_YyzdAtOyEfGzcf-gh6X0hg"/>
-    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="TEST" internalId="_YyzdA9OyEfGzcf-gh6X0hg"/>
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="TEST" internalId="_XicVJNeTEfG_WeH1NTIhfw"/>
+    <contextParameter comment="" name="FromDate" prompt="FromDate?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="" internalId="_XicVJdeTEfG_WeH1NTIhfw"/>
+    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="Webhook  TEST" internalId="_XicVJteTEfG_WeH1NTIhfw"/>
+    <contextParameter comment="" name="ToDate" prompt="ToDate?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="" internalId="_XicVJ9eTEfG_WeH1NTIhfw"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Production">
-    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="PROD" internalId="_YyzdBNOyEfGzcf-gh6X0hg"/>
-    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="PROD" internalId="_YyzdBdOyEfGzcf-gh6X0hg"/>
+    <contextParameter comment="" name="Environment" prompt="Environment?" promptNeeded="false" repositoryContextId="_Ly2mIMrdEfG7749utJX6hw" type="id_String" value="PROD" internalId="_XicVKNeTEfG_WeH1NTIhfw"/>
+    <contextParameter comment="" name="FromDate" prompt="FromDate?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="" internalId="_XicVKdeTEfG_WeH1NTIhfw"/>
+    <contextParameter comment="" name="resource_webhook_payload" prompt="resource_webhook_payload?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="Webhook PROD" internalId="_XicVKteTEfG_WeH1NTIhfw"/>
+    <contextParameter comment="" name="ToDate" prompt="ToDate?" promptNeeded="false" repositoryContextId="_IsrG8NOyEfGzcf-gh6X0hg" type="id_String" value="" internalId="_XicVK9eTEfG_WeH1NTIhfw"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -144,6 +150,9 @@
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;6 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
       </column>
       <column comment="" key="false" length="-1" name="Environment" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FromDate" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ToDate" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FULL" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
@@ -151,6 +160,9 @@
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="newColumn" expression="row1.newColumn " type="id_String" nullable="true"/>
         <mapperTableEntries name="Environment" expression="context.Environment" type="id_String" nullable="true"/>
+        <mapperTableEntries name="FromDate" expression="context.FromDate " type="id_String" nullable="true"/>
+        <mapperTableEntries name="ToDate" expression="context.ToDate " type="id_String" nullable="true"/>
+        <mapperTableEntries name="FULL" expression="context.resource_webhook_payload " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="newColumn" type="id_String" nullable="true"/>
@@ -175,6 +187,12 @@
       <elementValue elementRef="LENGTH" value="10" id="1"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Environment" id="2"/>
       <elementValue elementRef="LENGTH" value="10" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FromDate" id="4"/>
+      <elementValue elementRef="LENGTH" value="10" id="5"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ToDate" id="6"/>
+      <elementValue elementRef="LENGTH" value="10" id="7"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FULL" id="8"/>
+      <elementValue elementRef="LENGTH" value="10" id="9"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -184,11 +202,14 @@
         <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;getAsciiRandomString&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;length&quot;,&quot;PARAMETER_VALUE&quot;:&quot;6 &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;TalendString&quot;}"/>
       </column>
       <column comment="" key="false" length="-1" name="Environment" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FromDate" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ToDate" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FULL" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="120">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="600" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;Job &quot; + jobName + &quot; started at: &quot; + TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;, TalendDate.getCurrentDate()));&#xD;&#xA;System.out.println(&quot;Job origin is '&quot; + context.Environment + &quot;'!&quot;);"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;Job &quot; + jobName + &quot; started at: &quot; + TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;, TalendDate.getCurrentDate()));&#xD;&#xA;System.out.println(&quot;Job origin is '&quot; + context.Environment + &quot;'!&quot;);&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;String raw = context.resource_webhook_payload;&#xD;&#xA;&#xD;&#xA;if (raw == null || raw.trim().isEmpty()) {&#xD;&#xA;    throw new RuntimeException(&quot;Webhook payload is empty&quot;);&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;// Locate the data field in the TMC webhook envelope&#xD;&#xA;java.util.regex.Pattern pattern = java.util.regex.Pattern.compile(&#xD;&#xA;    &quot;\&quot;data\&quot;\\s*:\\s*\&quot;(\\{.*?\\})\&quot;&quot;,&#xD;&#xA;    java.util.regex.Pattern.DOTALL&#xD;&#xA;);&#xD;&#xA;&#xD;&#xA;java.util.regex.Matcher matcher = pattern.matcher(raw);&#xD;&#xA;&#xD;&#xA;if (!matcher.find()) {&#xD;&#xA;    throw new RuntimeException(&#xD;&#xA;        &quot;Cannot extract webhook data from TMC payload&quot;&#xD;&#xA;    );&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;// Extract the inner JSON object&#xD;&#xA;String jsonData = matcher.group(1);&#xD;&#xA;&#xD;&#xA;// Remove optional backslash-newline sequences&#xD;&#xA;jsonData = jsonData.replaceAll(&quot;\\\\\\r?\\n&quot;, &quot;&quot;);&#xD;&#xA;&#xD;&#xA;// Parse the inner JSON&#xD;&#xA;com.google.gson.JsonObject payload =&#xD;&#xA;    com.google.gson.JsonParser.parseString(jsonData)&#xD;&#xA;        .getAsJsonObject();&#xD;&#xA;&#xD;&#xA;// Read the parameters&#xD;&#xA;context.FromDate = payload.get(&quot;FromDate&quot;).getAsString();&#xD;&#xA;context.ToDate = payload.get(&quot;ToDate&quot;).getAsString();&#xD;&#xA;&#xD;&#xA;System.out.println(&quot;FromDate: &quot; + context.FromDate);&#xD;&#xA;System.out.println(&quot;ToDate: &quot; + context.ToDate);&#xD;&#xA;"/>
     <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_2"/>
@@ -208,19 +229,43 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="120">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1" show="false"/>
+    <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;mvn:com.google.code.gson/gson/2.9.0/jar&quot;"/>
+    <elementParameter field="TABLE" name="HOTLIBS"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Webhook" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+      <elementValue elementRef="TRACE_COLUMN" value="FromDate" id="3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="4"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="5"/>
+      <elementValue elementRef="TRACE_COLUMN" value="ToDate" id="6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="7"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="8"/>
+      <elementValue elementRef="TRACE_COLUMN" value="FULL" id="9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="10"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="11"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tJava_2">
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tLibraryLoad_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tJava_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_1" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
@@ -246,6 +291,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
